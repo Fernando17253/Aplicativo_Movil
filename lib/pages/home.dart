@@ -80,7 +80,7 @@ class Home extends StatelessWidget {
     }).toList();
 
     return Scaffold(
-      
+
       appBar: AppBar(
         title: Text("Perfil y equipo de trabajo"),
       ),
@@ -162,7 +162,7 @@ class Home extends StatelessWidget {
                 child: IconButton(
                   color: const Color.fromARGB(255, 0, 0, 0),
                   icon: const Icon(Icons.link, color: Colors.white),
-                  onPressed: () => _launchURL('https://example.com'),
+                  onPressed: () => _launchURL('https://github.com/Fernando17253/Aplicativo_Movil.git'),
                 ),
               ),
 
